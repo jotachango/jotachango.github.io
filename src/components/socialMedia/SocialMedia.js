@@ -32,6 +32,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.researchgate ? (
+        <a
+          href={socialMediaLinks.researchgate}
+          className="icon-button researchgate"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-researchgate"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
