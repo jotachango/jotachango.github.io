@@ -143,7 +143,7 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "Android (Latest Features & Jetpack Components)",
+      Stack: "Android",
       progressPercentage: "90%"
     },
     {
@@ -254,127 +254,217 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Publications",
+  subtitle: "RESEARCH WORK IN GPU COMPUTING AND ACOUSTIC MODELING",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/masterthesisPaper.png"), // Replace with actual image if available
+      projectName: "Multi-GPU Sound Propagation Modeling",
+      projectDesc:
+        "Developed a multi-GPU strategy for Adaptive Rectangular Decomposition in wave-based acoustics. Achieved up to 166× speedup over CPU, enabling efficient simulation of large-scale scenes.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Master Thesis",
+          url: "http://dx.doi.org/10.13140/RG.2.2.29968.72968"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/arddecompositionPaper2.jpg"), // Replace with actual image if available
+      projectName: "GPU-Accelerated Rectangular Decomposition",
+      projectDesc:
+        "Presented a fast GPU-based algorithm for decomposing 2D scenes into rectangles for sound propagation modeling. Enables real-time simulation of large acoustic environments.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Conference Paper",
+          url: "http://dx.doi.org/10.1109/SCCC49216.2019.8966434"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/acousticVibration2Paper.png"), // Replace with actual image if available
+      projectName: "Acoustic Vibration in 3D Cavity",
+      projectDesc:
+        "Implemented FEM acoustic simulation on GPU using CUDA and C++. Compared GPU methods with MATLAB CPU results. Achieved 5× speedup and high accuracy using Jacobi and divide-and-conquer solvers.",
+      footerLink: [
+        {
+          name: "Conference Paper",
+          url: "http://dx.doi.org/10.1109/SCCC.2018.8705226"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("🚀 Tech Projects & Open Source"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "A showcase of hands-on engineering, research, and open-source contributions—from acoustic simulations to AI-powered tablets and robotics.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "🧩 adaptive-boxes",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Python library for rectangular decomposition of 2D binary images. Useful for sound modeling and image segmentation.",
+      image: require("./assets/images/adaptiveboxes.png"),
+      imageAlt: "Adaptive Boxes",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View on GitHub",
+          url: "https://github.com/jotachango/adaptive-boxes"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "⚡ adaptive-boxes-gpu",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "GPU-accelerated version of Adaptive Boxes for efficient sound propagation modeling in 2D environments.",
+      image: require("./assets/images/adaptiveboxesgpu.png"),
+      imageAlt: "Adaptive Boxes GPU",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View on GitHub",
+          url: "https://github.com/jotachango/adaptive-boxes-gpu"
         }
       ]
     },
+    {
+      title: "💰 Kotkoin",
+      subtitle:
+        "MVVM-based Kotlin Multiplatform app built with Kotlin & Swift. Retrieves top 10 cryptocurrencies from CoinMarketCap API. Requires free API key.",
+      image: require("./assets/images/kotkoin.png"),
+      imageAlt: "Kotkoin App",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/jotachango/kotcoin-mvvm"
+        }
+      ]
+    },
+    {
+      title: "🎼 Computational Acoustics",
+      subtitle:
+        "Simulated musical instruments using ANSYS and GPU-accelerated FEM techniques. Optimized acoustic modeling with CUDA during Master's research.",
+      image: require("./assets/images/fem.png"),
+      imageAlt: "Computational Acoustics",
+      footerLink: [
+        {
+          name: "fem-cuda-solver",
+          url: "https://github.com/jotachango/fem-cuda-solver"
+        },
+        {
+          name: "vibro-acus-fem",
+          url: "https://github.com/jotachango/vibro-acus-fem"
+        },
+        {
+          name: "easy-wave-based",
+          url: "https://github.com/jotachango/easy-wave-based"
+        },
 
+      ]
+    },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "🤖 Sabine Robot",
+      subtitle:
+        "Designed and built an autonomous robot using PIC microcontrollers, ultrasonic sensors, and MATLAB for real-time object mapping.",
+      image: require("./assets/images/sabine.png"),
+      imageAlt: "Sabine Robot",
       footerLink: [
-        {name: "Certification", url: ""},
+      ]
+    },
+    {
+      title: "🛡️ SoyMomo Tablet",
+      subtitle:
+        "Led Android development for child-safe tablets using Kotlin, RxJava, and TensorFlow Lite. Deployed across LATAM and Europe.",
+      image: require("./assets/images/momo_tablet.png"),
+      imageAlt: "SoyMomo Tablet",
+      footerLink: [
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Company Website",
+          url: "https://soymomo.com/"
+        }
+      ]
+    },
+    {
+      title: "🧠 AI Signs Language Recognition",
+      subtitle:
+        "Led ML research at Talov to develop sign language recognition models. Built Android apps using Kotlin and Java (2017–2019).",
+      image: require("./assets/images/speakliz.png"),
+      imageAlt: "AI Signs Language Recognition",
+      footerLink: [
+        {
+          name: "Startup Website",
+          url: "https://www.youtube.com/watch?v=K7GSwzHvLGg"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
-
 const blogSection = {
-  title: "Blogs",
+  title: "📜 Certifications & Awards",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "A curated list of my technical certifications and global recognitions.",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://portal.securecodewarrior.com/#/stats/6137703d3515140080e6a2e8",
+      title: "🥇 1st Place Global Ranking – ChileDF",
+      description: "Top global ranking in secure coding challenge."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "🏛️ At Universidad de Chile",
+      description: "PhD Program Internal Scholarship."
+    },
+    {
+      url: "",
+      title: "🎓 At Universidad Austral de Chile",
+      description: "Master Program & Research Assistant Scholarship."
+    },
+    {
+      url: "",
+      title: "🏫 At Universidad de las Américas",
+      description: "Academic Excellence Scholarship."
+    },
+    {
+      url: "https://www.coursera.org/account/accomplishments/verify/XQCTX579USQJ",
+      title: "🎨 Front-End Web UI Frameworks and Tools",
+      description: "Learned modern front-end frameworks and tools."
+    },
+    {
+      url: "https://www.coursera.org/account/accomplishments/verify/VERW82C7H3",
+      title: "📊 R Programming",
+      description: "Gained skills in statistical programming with R."
+    },
+    {
+      url: "https://www.coursera.org/account/accomplishments/verify/ASQFFRPX7S",
+      title: "📡 Digital Signal Processing",
+      description: "Explored DSP fundamentals and applications."
+    },
+    {
+      url: "https://www.linkedin.com/in/jotachango/details/certifications/", // Replace with actual profile or listing
+      title: "📚 Check out more certifications",
+      description: "Full list available on my Linkedin profile."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Talks Sections
 
@@ -392,7 +482,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -405,7 +495,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -429,10 +519,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
