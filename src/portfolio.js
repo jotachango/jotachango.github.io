@@ -47,10 +47,9 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "MULTIPLATFORM MOBILE DEVELOPER | ANDROID & iOS | KOTLIN EXPERT",
   skills: [
-    emoji("⚡ Build high-performance Android & iOS apps using Kotlin Multiplatform"),
-    emoji("⚡ Integrate APIs and cloud services (Firebase, AWS, Digital Ocean)"),
-    emoji("⚡ Design clean, scalable architectures focused on performance & UX"),
-    emoji("⚡ Experienced with Vue.js for web frontends and Python for AI & Data Science")
+    emoji("⚡ Build high-performance Android & iOS apps with Kotlin Multiplatform"),
+    emoji("⚡ Experience with modern web tech (Vue.js)"),
+    emoji("⚡ Research & development in High-Performance Computing and Python for AI solutions")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -82,12 +81,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "HPC",
+      fontAwesomeClassname: "fa fa-microchip"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "data-science",
+      fontAwesomeClassname: "fa fa-flask"
     }
   ],
   display: true
@@ -100,23 +99,40 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universidad de Chile 🇨🇱",
+      logo: require("./assets/images/uchileLogo.png"),
+      subHeader: "PhD in Computer Science (On Hold)",
+      duration: "March 2021 – Present (on hold)",
+      desc: "Awarded a prestigious scholarship to extend my Master's research in high-performance computing for large-scale acoustic simulations. The program was paused due to the COVID-19 pandemic, but it laid the foundation for future advancements in GPU-accelerated numerical methods.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "📊 Planned research on scaling adaptive numerical methods for 3D acoustics simulations across distributed HPC environments.",
+        "⚙️ Intended to leverage and extend GPU, CUDA, and parallel computing expertise developed during my MSc thesis.",
+        "🔬 Aimed to contribute novel computational methods for real-time and near-real-time acoustic modeling."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universidad Austral de Chile (UACh) 🇨🇱",
+      logo: require("./assets/images/uachLogo.png"),
+      subHeader: "MSc. in Computer Science",
+      duration: "March 2017 – December 2019",
+      desc: "Specialized in Data Science and High Performance Computing (HPC), with an emphasis on computational acoustics and GPU optimization. My work combined finite element methods, large-scale numerical simulations, and algorithmic performance tuning for scientific computing.",
+      descBullets: [
+        "🎼 Implemented FEM-based simulations of musical instruments in ANSYS, optimizing execution with NVIDIA GPU acceleration.",
+        "🐍 Designed and improved numerical solvers for acoustic wave propagation using Python, C++, and CUDA for massive datasets.",
+        "📄 Published and presented research in peer-reviewed conferences; full research profile is available on ResearchGate."
+      ]
+    },
+    {
+      schoolName: "Universidad de las Américas – UDLA 🇪🇨",
+      logo: require("./assets/images/udlaLogo.jpeg"),
+      subHeader: "BSc. in Acoustical Engineering",
+      duration: "September 2009 – March 2015",
+      desc: "Focused on Digital Signal Processing (DSP) and embedded systems while exploring software development and data science through self-study. My projects merged acoustics engineering with electronics and real-time data processing.",
+      descBullets: [
+        "🤖 Built the 'Sabine Robot' using PIC microcontrollers, ultrasonic sensors, and MATLAB for real-time environmental mapping.",
+        "🔊 Programmed DSP algorithms (filters, convolutions, FFTs) on Texas Instruments TMS320C6713, integrating it with Raspberry Pi for real-time audio analysis.",
+        "📚 Completed over a year of self-directed learning in software development and data science via Coursera, expanding my engineering expertise into computing."
+      ]
     }
   ]
 };
@@ -124,19 +140,31 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Android (Latest Features & Jetpack Components)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Kotlin Multiplatform",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Swift & iOS",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Python (AI & HPC)",
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "Vue.js & TypeScript",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Databases & Backend",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,29 +176,76 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Mobile Software Engineer",
+      company: "Falabella (Chile) 🇨🇱",
+      companylogo: require("./assets/images/falabellaLogo.jpeg"),
+      date: "June 2023 – Present",
+      desc: "Building and optimizing the Falabella Android app for millions of LATAM users, collaborating with teams across regions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "📱 Developed and launched new Kotlin-based Android features, integrating with secure backend services.",
+        "🚀 Improved performance and user experience while coordinating cross-regional teams as a digital nomad.",
+        "🔒 Applied best practices in app security, authentication, and data protection."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Mobile Developer (Consultant)",
+      company: "TacTech (Chile) 🇨🇱",
+      companylogo: require("./assets/images/tactechLogo.jpeg"),
+      date: "May 2022 – June 2023",
+      desc: "Consulted for Falabella LATAM, delivering Android features and maintaining large-scale retail apps.",
+      descBullets: [
+        "💻 Built and refactored Android components using Kotlin, Dagger, and modern architectures.",
+        "📊 Optimized app performance, wrote robust unit tests, and integrated cloud features via Firebase & GCP.",
+        "🛠 Coordinated cross-team development to ensure scalability and maintainability of apps."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mobile Developer",
+      company: "NTT DATA Europe & LATAM (Chile) 🌐",
+      companylogo: require("./assets/images/nttdataLogo.jpeg"),
+      date: "Nov 2020 – May 2022",
+      desc: "Developed secure, high-performance features for Scotiabank Go App.",
+      descBullets: [
+        "📱 Implemented Kotlin/Java features with MVVM/MVI and dependency injection (Dagger, Hilt).",
+        "🛡 Enhanced app security, managed production releases, and integrated new Android libraries.",
+        "🔍 Researched and implemented modern Android components to improve maintainability and performance."
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "SoyMomo (Chile) 🧸",
+      companylogo: require("./assets/images/soymomoLogo.png"),
+      date: "Oct 2019 – Nov 2020",
+      desc: "Led Android development for child-friendly devices with AI safety features.",
+      descBullets: [
+        "📲 Built Kotlin-based apps with TensorFlow Lite for inappropriate content detection.",
+        "🔒 Designed secure parental controls and supported cloud backend development.",
+        "🧪 Implemented robust testing pipelines and modern architectures (MVC/MVP/MVVM) for scalability."
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "Talov (Ecuador) 🇪🇨",
+      companylogo: require("./assets/images/talovLogo.jpg"),
+      date: "Aug 2017 – Aug 2019",
+      desc: "Developed Android and AI-driven accessibility solutions for sign language recognition.",
+      descBullets: [
+        "🤖 Created real-time ML apps in Kotlin/Java, training models with IBM Watson.",
+        "⚡ Applied CUDA and C++ on GPU clusters for optimized mobile ML performance.",
+        "✋ Led model optimization and R&D efforts to ensure deployment-ready mobile ML solutions."
+      ]
+    },
+    {
+      role: "Assistant Research Engineer",
+      company: "Universidad Austral de Chile (Chile) 🎓",
+      companylogo: require("./assets/images/uachLogo.png"),
+      date: "Apr 2018 – Apr 2019",
+      desc: "Performed HPC-accelerated acoustic simulations for research projects.",
+      descBullets: [
+        "🎼 Simulated acoustics using ANSYS, Python, MATLAB, C++ and CUDA on NVIDIA GPUs.",
+        "📈 Optimized FEM/FDTD models for faster, large-scale computational experiments.",
+        "⚙️ Developed high-performance tools for acoustic analysis and research automation."
+      ]
     }
   ]
 };
