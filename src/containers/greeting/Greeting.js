@@ -3,6 +3,7 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
+import profilePicture from "../../assets/images/profile_2022.png";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -20,13 +21,18 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
-                {" "}
-                {greeting.title}{" "}
-                {/*<span className="wave-emoji">{emoji("👋")}</span>*/}
-              </h1>
+
+              <div className="greeting-title-image">
+                <img
+                  src={profilePicture}
+                  className="avatar"
+                  alt="Juan Chango"
+                />
+                <h1 className={isDark ? "dark-mode greeting-text" : "greeting-text"}>
+                  {greeting.title}
+                </h1>
+              </div>
+
               <p
                 className={
                   isDark

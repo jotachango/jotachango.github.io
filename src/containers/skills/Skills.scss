@@ -20,6 +20,14 @@
   height: auto;
 }
 
+.skills-image-div {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 3%;
+}
+
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
@@ -60,5 +68,12 @@
   .skills-image-div {
     /* display: none; */
     order: 2;
+  }
+  .skills-image-div {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 5%;
   }
 }

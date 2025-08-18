@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 1500 // Set animation duration as per your animation
+  duration: 1800 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -38,6 +38,7 @@ const socialMediaLinks = {
   gmail: "jfchangop@gmail.com",
   researchgate: "https://www.researchgate.net/profile/Juan_Chango",
   medium: "https://medium.com/@jotachango",
+  instagram: "https://www.instagram.com/jotachango/",
   display: true // Set true to display this section
 };
 
@@ -94,9 +95,8 @@ https://fontawesome.com/icons?d=gallery */
 
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Universidad de Chile 🇨🇱",
@@ -105,9 +105,9 @@ const educationInfo = {
       duration: "March 2021 – Present (on hold)",
       desc: "Awarded a prestigious scholarship to extend my Master's research in high-performance computing for large-scale acoustic simulations. The program was paused due to the COVID-19 pandemic, but it laid the foundation for future advancements in GPU-accelerated numerical methods.",
       descBullets: [
-        "📊 Planned research on scaling adaptive numerical methods for 3D acoustics simulations across distributed HPC environments.",
-        "⚙️ Intended to leverage and extend GPU, CUDA, and parallel computing expertise developed during my MSc thesis.",
-        "🔬 Aimed to contribute novel computational methods for real-time and near-real-time acoustic modeling."
+        "📊 Scalable 3D acoustic simulations on HPC systems",
+        "⚙️ Advanced GPU, CUDA & parallel computing",
+        "🔬 Novel methods for real-time acoustic modeling"
       ]
     },
     {
@@ -117,9 +117,9 @@ const educationInfo = {
       duration: "March 2017 – December 2019",
       desc: "Specialized in Data Science and High Performance Computing (HPC), with an emphasis on computational acoustics and GPU optimization. My work combined finite element methods, large-scale numerical simulations, and algorithmic performance tuning for scientific computing.",
       descBullets: [
-        "🎼 Implemented FEM-based simulations of musical instruments in ANSYS, optimizing execution with NVIDIA GPU acceleration.",
-        "🐍 Designed and improved numerical solvers for acoustic wave propagation using Python, C++, and CUDA for massive datasets.",
-        "📄 Published and presented research in peer-reviewed conferences; full research profile is available on ResearchGate."
+        "🎼 FEM-based simulations of instruments with GPU speedups",
+        "🐍 Acoustic solvers in Python, C++ & CUDA",
+        "📄 Research published in peer-reviewed venues"
       ]
     },
     {
@@ -129,9 +129,9 @@ const educationInfo = {
       duration: "September 2009 – March 2015",
       desc: "Focused on Digital Signal Processing (DSP) and embedded systems while exploring software development and data science through self-study. My projects merged acoustics engineering with electronics and real-time data processing.",
       descBullets: [
-        "🤖 Built the 'Sabine Robot' using PIC microcontrollers, ultrasonic sensors, and MATLAB for real-time environmental mapping.",
-        "🔊 Programmed DSP algorithms (filters, convolutions, FFTs) on Texas Instruments TMS320C6713, integrating it with Raspberry Pi for real-time audio analysis.",
-        "📚 Completed over a year of self-directed learning in software development and data science via Coursera, expanding my engineering expertise into computing."
+        "🤖 Built 'Sabine Robot' with sensors & MATLAB",
+        "🔊 Programmed DSP on TI DSP + Raspberry Pi",
+        "📚 Self-learned software dev & data science"
       ]
     }
   ]
@@ -510,9 +510,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? Feel free to reach out!",
+  // number: "+92-0000000000",
+  email_address: "jfchangop@gmail.com"
 };
 
 // Twitter Section

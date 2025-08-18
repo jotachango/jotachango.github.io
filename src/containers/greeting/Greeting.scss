@@ -10,7 +10,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 1.0rem;
 }
 
 .greeting-main {
@@ -43,14 +43,16 @@
 }
 
 .greeting-text {
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 62px;
+  line-height: 1.0;
   color: $textColor !important;
+  text-align: left;
 }
 
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  text-align: left;
 }
 
 .greeting-image-div > img {
@@ -94,9 +96,11 @@
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+    text-align: left;
   }
   .greeting-text-p {
     font-size: 20px;
+    text-align: left;
   }
 }
 @media (max-width: 768px) {
@@ -123,5 +127,29 @@
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+}
+
+.greeting-title-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .avatar {
+    width: 190px !important;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+    display: block;
+    max-width: none;
+    flex-shrink: 0;
   }
 }
