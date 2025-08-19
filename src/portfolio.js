@@ -361,18 +361,9 @@ const achievementSection = {
       imageAlt: "Computational Acoustics",
       footerLink: [
         {
-          name: "fem-cuda-solver",
-          url: "https://github.com/jotachango/fem-cuda-solver"
-        },
-        {
-          name: "vibro-acus-fem",
-          url: "https://github.com/jotachango/vibro-acus-fem"
-        },
-        {
-          name: "easy-wave-based",
-          url: "https://github.com/jotachango/easy-wave-based"
-        },
-
+          name: "YouTube Video",
+          url: "https://www.youtube.com/watch?v=zYwKiNzNJNo"
+        }
       ]
     },
     {

@@ -15,7 +15,7 @@
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: $progressBarSpanBG;
+  background: linear-gradient(-90deg, #8111cb 0%, #3325fc 100%);
   position: relative;
   overflow: hidden;
 }

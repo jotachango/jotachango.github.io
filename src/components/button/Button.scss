@@ -1,7 +1,7 @@
 @import "../../_globalColor";
 
 .main-button {
-  background-color: $buttonColor;
+  background: linear-gradient(-120deg, $buttonColor 0%, #2c25fc 100%);
   border: solid 1px $buttonColor;
   color: $textColorDark;
   font-weight: 700;
@@ -19,7 +19,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: $darkBoxShadow2;
+  background: $darkBoxShadow2;
   color: $buttonColor;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
