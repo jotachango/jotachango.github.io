@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
+import {illustration, contactInfo, socialMediaLinks} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -9,6 +9,17 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const copyTheMail = email => {
+    navigator.clipboard.writeText(email).then(() => {
+      if (window.blackDashboard?.showSidebarMessage) {
+        window.blackDashboard.showSidebarMessage(
+          `<b>${email}</b> copied to clipboard!`
+        );
+      } else {
+        alert(`${email} copied to clipboard!`);
+      }
+    });
+  };
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -41,12 +52,24 @@ export default function Contact() {
                   <br />
                 </>
               )}
+              {/*<a*/}
+              {/*  className="contact-detail-email"*/}
+              {/*  href={"mailto:" + contactInfo.email_address}*/}
+              {/*>*/}
+              {/*  {contactInfo.email_address}*/}
+              {/*</a>*/}
+
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
+                onClick={e => {
+                  e.preventDefault();
+                  copyTheMail(socialMediaLinks.gmail);
+                }}
               >
                 {contactInfo.email_address}
               </a>
+
               <br />
               <br />
               <SocialMedia />

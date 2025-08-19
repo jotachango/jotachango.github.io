@@ -6,6 +6,17 @@ export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
+  const copyTheMail = email => {
+    navigator.clipboard.writeText(email).then(() => {
+      if (window.blackDashboard?.showSidebarMessage) {
+        window.blackDashboard.showSidebarMessage(
+          `<b>${email}</b> copied to clipboard!`
+        );
+      } else {
+        alert(`${email} copied to clipboard!`);
+      }
+    });
+  };
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (
@@ -32,17 +43,33 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.researchgate ? (
+        <a
+          href={socialMediaLinks.researchgate}
+          className="icon-button researchgate"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-researchgate"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.gmail && (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={e => {
+            e.preventDefault();
+            copyTheMail(socialMediaLinks.gmail);
+          }}
         >
           <i className="fas fa-envelope"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
       {socialMediaLinks.gitlab ? (
         <a

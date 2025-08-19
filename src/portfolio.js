@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1800 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,43 +20,40 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "jotachango",
+  title: "Juan Francisco Chango Perugachi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "📱 Senior Mobile Developer & Kotlin Multiplatform Expert 🚀 Building high-quality Android & iOS apps with a deep passion for clean architecture, performance, and user experience."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/jotachango",
+  linkedin: "https://www.linkedin.com/in/jotachango/",
+  gmail: "jfchangop@gmail.com",
+  researchgate: "https://www.researchgate.net/profile/Juan_Chango",
+  medium: "https://medium.com/@jotachango",
+  instagram: "https://www.instagram.com/jotachango/",
+  display: true // Set true to display this section
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "MULTIPLATFORM MOBILE DEVELOPER | ANDROID & iOS | KOTLIN EXPERT",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build high-performance Android & iOS apps with Kotlin Multiplatform"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Experience with modern web tech (Vue.js)"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Research & development in High-Performance Computing and Python for AI solutions"
     )
   ],
 
@@ -65,84 +62,80 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "kotlin",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "HPC",
+      fontAwesomeClassname: "fa fa-microchip"
+    },
+    {
+      skillName: "data-science",
+      fontAwesomeClassname: "fa fa-flask"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universidad de Chile 🇨🇱",
+      logo: require("./assets/images/uchileLogo.png"),
+      subHeader: "PhD in Computer Science (On Hold)",
+      duration: "March 2021 – Present (on hold)",
+      desc: "Awarded a prestigious scholarship to extend my Master's research in high-performance computing for large-scale acoustic simulations. The program was paused due to the COVID-19 pandemic, but it laid the foundation for future advancements in GPU-accelerated numerical methods.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "📊 Scalable 3D acoustic simulations on HPC systems",
+        "⚙️ Advanced GPU, CUDA & parallel computing",
+        "🔬 Novel methods for real-time acoustic modeling"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universidad Austral de Chile (UACh) 🇨🇱",
+      logo: require("./assets/images/uachLogo.png"),
+      subHeader: "MSc. in Computer Science",
+      duration: "March 2017 – December 2019",
+      desc: "Specialized in Data Science and High Performance Computing (HPC), with an emphasis on computational acoustics and GPU optimization. My work combined finite element methods, large-scale numerical simulations, and algorithmic performance tuning for scientific computing.",
+      descBullets: [
+        "🎼 FEM-based simulations of instruments with GPU speedups",
+        "🐍 Acoustic solvers in Python, C++ & CUDA",
+        "📄 Research published in peer-reviewed venues"
+      ]
+    },
+    {
+      schoolName: "Universidad de las Américas – UDLA 🇪🇨",
+      logo: require("./assets/images/udlaLogo.jpeg"),
+      subHeader: "BSc. in Acoustical Engineering",
+      duration: "September 2009 – March 2015",
+      desc: "Focused on Digital Signal Processing (DSP) and embedded systems while exploring software development and data science through self-study. My projects merged acoustics engineering with electronics and real-time data processing.",
+      descBullets: [
+        "🤖 Built 'Sabine Robot' with sensors & MATLAB",
+        "🔊 Programmed DSP on TI DSP + Raspberry Pi",
+        "📚 Self-learned software dev & data science"
+      ]
     }
   ]
 };
@@ -150,19 +143,31 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Android",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Kotlin Multiplatform",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Swift & iOS",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Python (AI & HPC)",
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "Vue.js & TypeScript",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Databases & Backend",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +179,76 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Mobile Software Engineer",
+      company: "Falabella (Chile) 🇨🇱",
+      companylogo: require("./assets/images/falabellaLogo.jpeg"),
+      date: "June 2023 – Present",
+      desc: "Building and optimizing the Falabella Android app for millions of LATAM users, collaborating with teams across regions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "📱 Developed and launched new Kotlin-based Android features, integrating with secure backend services.",
+        "🚀 Improved performance and user experience while coordinating cross-regional teams as a digital nomad.",
+        "🔒 Applied best practices in app security, authentication, and data protection."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Mobile Developer (Consultant)",
+      company: "TacTech (Chile) 🇨🇱",
+      companylogo: require("./assets/images/tactechLogo.jpeg"),
+      date: "May 2022 – June 2023",
+      desc: "Consulted for Falabella LATAM, delivering Android features and maintaining large-scale retail apps.",
+      descBullets: [
+        "💻 Built and refactored Android components using Kotlin, Dagger, and modern architectures.",
+        "📊 Optimized app performance, wrote robust unit tests, and integrated cloud features via Firebase & GCP.",
+        "🛠 Coordinated cross-team development to ensure scalability and maintainability of apps."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mobile Developer",
+      company: "NTT DATA Europe & LATAM (Chile) 🌐",
+      companylogo: require("./assets/images/nttdataLogo.jpeg"),
+      date: "Nov 2020 – May 2022",
+      desc: "Developed secure, high-performance features for Scotiabank Go App.",
+      descBullets: [
+        "📱 Implemented Kotlin/Java features with MVVM/MVI and dependency injection (Dagger, Hilt).",
+        "🛡 Enhanced app security, managed production releases, and integrated new Android libraries.",
+        "🔍 Researched and implemented modern Android components to improve maintainability and performance."
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "SoyMomo (Chile) 🧸",
+      companylogo: require("./assets/images/soymomoLogo.png"),
+      date: "Oct 2019 – Nov 2020",
+      desc: "Led Android development for child-friendly devices with AI safety features.",
+      descBullets: [
+        "📲 Built Kotlin-based apps with TensorFlow Lite for inappropriate content detection.",
+        "🔒 Designed secure parental controls and supported cloud backend development.",
+        "🧪 Implemented robust testing pipelines and modern architectures (MVC/MVP/MVVM) for scalability."
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "Talov (Ecuador) 🇪🇨",
+      companylogo: require("./assets/images/talovLogo.jpg"),
+      date: "Aug 2017 – Aug 2019",
+      desc: "Developed Android and AI-driven accessibility solutions for sign language recognition.",
+      descBullets: [
+        "🤖 Created real-time ML apps in Kotlin/Java, training models with IBM Watson.",
+        "⚡ Applied CUDA and C++ on GPU clusters for optimized mobile ML performance.",
+        "✋ Led model optimization and R&D efforts to ensure deployment-ready mobile ML solutions."
+      ]
+    },
+    {
+      role: "Assistant Research Engineer",
+      company: "Universidad Austral de Chile (Chile) 🎓",
+      companylogo: require("./assets/images/uachLogo.png"),
+      date: "Apr 2018 – Apr 2019",
+      desc: "Performed HPC-accelerated acoustic simulations for research projects.",
+      descBullets: [
+        "🎼 Simulated acoustics using ANSYS, Python, MATLAB, C++ and CUDA on NVIDIA GPUs.",
+        "📈 Optimized FEM/FDTD models for faster, large-scale computational experiments.",
+        "⚙️ Developed high-performance tools for acoustic analysis and research automation."
+      ]
     }
   ]
 };
@@ -205,126 +257,204 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Publications",
+  subtitle: "RESEARCH WORK IN GPU COMPUTING AND ACOUSTIC MODELING",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/masterthesisPaper.png"), // Replace with actual image if available
+      projectName: "Multi-GPU Sound Propagation Modeling",
+      projectDesc:
+        "Developed a multi-GPU strategy for Adaptive Rectangular Decomposition in wave-based acoustics. Achieved up to 166× speedup over CPU, enabling efficient simulation of large-scale scenes.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Master Thesis",
+          url: "http://dx.doi.org/10.13140/RG.2.2.29968.72968"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/arddecompositionPaper2.jpg"), // Replace with actual image if available
+      projectName: "GPU-Accelerated Rectangular Decomposition",
+      projectDesc:
+        "Presented a fast GPU-based algorithm for decomposing 2D scenes into rectangles for sound propagation modeling. Enables real-time simulation of large acoustic environments.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Conference Paper",
+          url: "http://dx.doi.org/10.1109/SCCC49216.2019.8966434"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/acousticVibration2Paper.png"), // Replace with actual image if available
+      projectName: "Acoustic Vibration in 3D Cavity",
+      projectDesc:
+        "Implemented FEM acoustic simulation on GPU using CUDA and C++. Compared GPU methods with MATLAB CPU results. Achieved 5× speedup and high accuracy using Jacobi and divide-and-conquer solvers.",
+      footerLink: [
+        {
+          name: "Conference Paper",
+          url: "http://dx.doi.org/10.1109/SCCC.2018.8705226"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("🚀 Tech Projects & Open Source"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "A showcase of hands-on engineering, research, and open-source contributions—from acoustic simulations to AI-powered tablets and robotics.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "🧩 adaptive-boxes",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Python library for rectangular decomposition of 2D binary images. Useful for sound modeling and image segmentation.",
+      image: require("./assets/images/adaptiveboxes.png"),
+      imageAlt: "Adaptive Boxes",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View on GitHub",
+          url: "https://github.com/jotachango/adaptive-boxes"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "⚡ adaptive-boxes-gpu",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "GPU-accelerated version of Adaptive Boxes for efficient sound propagation modeling in 2D environments.",
+      image: require("./assets/images/adaptiveboxesgpu.png"),
+      imageAlt: "Adaptive Boxes GPU",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View on GitHub",
+          url: "https://github.com/jotachango/adaptive-boxes-gpu"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "💰 Kotkoin",
+      subtitle:
+        "MVVM-based Kotlin Multiplatform app built with Kotlin & Swift. Retrieves top 10 cryptocurrencies from CoinMarketCap API. Requires free API key.",
+      image: require("./assets/images/kotkoin.png"),
+      imageAlt: "Kotkoin App",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View on GitHub",
+          url: "https://github.com/jotachango/kotcoin-mvvm"
+        }
+      ]
+    },
+    {
+      title: "🎼 Computational Acoustics",
+      subtitle:
+        "Simulated musical instruments using ANSYS and GPU-accelerated FEM techniques. Optimized acoustic modeling with CUDA during Master's research.",
+      image: require("./assets/images/fem.png"),
+      imageAlt: "Computational Acoustics",
+      footerLink: [
+        {
+          name: "YouTube Video",
+          url: "https://www.youtube.com/watch?v=zYwKiNzNJNo"
+        }
+      ]
+    },
+    {
+      title: "🤖 Sabine Robot",
+      subtitle:
+        "Designed and built an autonomous robot using PIC microcontrollers, ultrasonic sensors, and MATLAB for real-time object mapping.",
+      image: require("./assets/images/sabine.png"),
+      imageAlt: "Sabine Robot",
+      footerLink: []
+    },
+    {
+      title: "🛡️ SoyMomo Tablet",
+      subtitle:
+        "Led Android development for child-safe tablets using Kotlin, RxJava, and TensorFlow Lite. Deployed across LATAM and Europe.",
+      image: require("./assets/images/momo_tablet.png"),
+      imageAlt: "SoyMomo Tablet",
+      footerLink: [
+        {
+          name: "Company Website",
+          url: "https://soymomo.com/"
+        }
+      ]
+    },
+    {
+      title: "🧠 AI Signs Language Recognition",
+      subtitle:
+        "Led ML research at Talov to develop sign language recognition models. Built Android apps using Kotlin and Java (2017–2019).",
+      image: require("./assets/images/speakliz.png"),
+      imageAlt: "AI Signs Language Recognition",
+      footerLink: [
+        {
+          name: "Startup Website",
+          url: "https://www.youtube.com/watch?v=K7GSwzHvLGg"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
-
 const blogSection = {
-  title: "Blogs",
+  title: "📜 Certifications & Awards",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "A curated list of my technical certifications and global recognitions.",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://portal.securecodewarrior.com/#/stats/6137703d3515140080e6a2e8",
+      title: "🥇 1st Place Global Ranking – ChileDF",
+      description: "Top global ranking in secure coding challenge."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "🏛️ At Universidad de Chile",
+      description: "PhD Program Internal Scholarship."
+    },
+    {
+      url: "",
+      title: "🎓 At Universidad Austral de Chile",
+      description: "Master Program & Research Assistant Scholarship."
+    },
+    {
+      url: "",
+      title: "🏫 At Universidad de las Américas",
+      description: "Academic Excellence Scholarship."
+    },
+    {
+      url: "https://www.coursera.org/account/accomplishments/verify/XQCTX579USQJ",
+      title: "🎨 Front-End Web UI Frameworks and Tools",
+      description: "Learned modern front-end frameworks and tools."
+    },
+    {
+      url: "https://www.coursera.org/account/accomplishments/verify/VERW82C7H3",
+      title: "📊 R Programming",
+      description: "Gained skills in statistical programming with R."
+    },
+    {
+      url: "https://www.coursera.org/account/accomplishments/verify/ASQFFRPX7S",
+      title: "📡 Digital Signal Processing",
+      description: "Explored DSP fundamentals and applications."
+    },
+    {
+      url: "https://www.linkedin.com/in/jotachango/details/certifications/", // Replace with actual profile or listing
+      title: "📚 Check out more certifications",
+      description: "Full list available on my Linkedin profile."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections
@@ -343,7 +473,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +486,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -370,20 +500,19 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or just want to say hi? Feel free to reach out!",
+  // number: "+92-0000000000",
+  email_address: "jfchangop@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
