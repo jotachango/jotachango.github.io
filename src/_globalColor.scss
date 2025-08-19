@@ -47,8 +47,14 @@ $darkBoxShadow: #a6a4d6;
 $darkBoxShadow2: #f2e4ff;
 
 /* Gradientes */
-$experienceCardBlurredDivLG: linear-gradient(rgba(58, 0, 88, 0.4), rgba(74, 0, 114, 0.2));
-$experienceCardBannerLG: linear-gradient(rgba(58, 0, 88, 0.7), rgba(74, 0, 114, 0.5));
+$experienceCardBlurredDivLG: linear-gradient(
+  rgba(58, 0, 88, 0.4),
+  rgba(74, 0, 114, 0.2)
+);
+$experienceCardBannerLG: linear-gradient(
+  rgba(58, 0, 88, 0.7),
+  rgba(74, 0, 114, 0.5)
+);
 
 /* Bordes */
 $progressBarBackground: rgb(242, 236, 243);

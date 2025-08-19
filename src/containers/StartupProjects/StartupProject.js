@@ -20,7 +20,6 @@ export default function StartupProject() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-
       <div className="main" id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
@@ -33,7 +32,11 @@ export default function StartupProject() {
           >
             {bigProjects.subtitle}
           </p>
-          <img src={devPicture} className="horizontal-dev-img" alt="Juan Chango" />
+          <img
+            src={devPicture}
+            className="horizontal-dev-img"
+            alt="Juan Chango"
+          />
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
               return (

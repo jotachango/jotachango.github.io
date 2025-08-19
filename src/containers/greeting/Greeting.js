@@ -21,14 +21,17 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-
               <div className="greeting-title-image">
                 <img
                   src={profilePicture}
                   className="avatar"
                   alt="Juan Chango"
                 />
-                <h1 className={isDark ? "dark-mode greeting-text" : "greeting-text"}>
+                <h1
+                  className={
+                    isDark ? "dark-mode greeting-text" : "greeting-text"
+                  }
+                >
                   {greeting.title}
                 </h1>
               </div>

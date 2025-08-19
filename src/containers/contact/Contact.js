@@ -9,7 +9,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
-  const copyTheMail = (email) => {
+  const copyTheMail = email => {
     navigator.clipboard.writeText(email).then(() => {
       if (window.blackDashboard?.showSidebarMessage) {
         window.blackDashboard.showSidebarMessage(
@@ -62,7 +62,7 @@ export default function Contact() {
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
-                onClick={(e) => {
+                onClick={e => {
                   e.preventDefault();
                   copyTheMail(socialMediaLinks.gmail);
                 }}

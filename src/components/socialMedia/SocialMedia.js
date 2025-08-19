@@ -6,7 +6,7 @@ export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
-  const copyTheMail = (email) => {
+  const copyTheMail = email => {
     navigator.clipboard.writeText(email).then(() => {
       if (window.blackDashboard?.showSidebarMessage) {
         window.blackDashboard.showSidebarMessage(
@@ -61,7 +61,7 @@ export default function socialMedia() {
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={(e) => {
+          onClick={e => {
             e.preventDefault();
             copyTheMail(socialMediaLinks.gmail);
           }}

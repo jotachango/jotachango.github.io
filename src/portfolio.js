@@ -48,9 +48,13 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "MULTIPLATFORM MOBILE DEVELOPER | ANDROID & iOS | KOTLIN EXPERT",
   skills: [
-    emoji("⚡ Build high-performance Android & iOS apps with Kotlin Multiplatform"),
+    emoji(
+      "⚡ Build high-performance Android & iOS apps with Kotlin Multiplatform"
+    ),
     emoji("⚡ Experience with modern web tech (Vue.js)"),
-    emoji("⚡ Research & development in High-Performance Computing and Python for AI solutions")
+    emoji(
+      "⚡ Research & development in High-Performance Computing and Python for AI solutions"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -92,7 +96,6 @@ https://fontawesome.com/icons?d=gallery */
   ],
   display: true
 };
-
 
 // Education Section
 const educationInfo = {
@@ -304,7 +307,6 @@ const bigProjects = {
   display: true
 };
 
-
 // Achievement Section
 // Include certificates, talks etc
 
@@ -372,8 +374,7 @@ const achievementSection = {
         "Designed and built an autonomous robot using PIC microcontrollers, ultrasonic sensors, and MATLAB for real-time object mapping.",
       image: require("./assets/images/sabine.png"),
       imageAlt: "Sabine Robot",
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "🛡️ SoyMomo Tablet",
@@ -456,7 +457,6 @@ const blogSection = {
   display: true
 };
 
-
 // Talks Sections
 
 const talkSection = {
@@ -500,8 +500,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? Feel free to reach out!",
+  subtitle: "Discuss a project or just want to say hi? Feel free to reach out!",
   // number: "+92-0000000000",
   email_address: "jfchangop@gmail.com"
 };
