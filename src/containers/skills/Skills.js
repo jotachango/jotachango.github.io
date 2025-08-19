@@ -17,7 +17,11 @@ export default function Skills() {
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
         <Fade left duration={1000}>
-          <img src={devPicture} className="skills-image-div" alt="Juan Chango" />
+          <img
+            src={devPicture}
+            className="skills-image-div"
+            alt="Juan Chango"
+          />
         </Fade>
         <Fade right duration={1000}>
           <div className="skills-text-div">
