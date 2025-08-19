@@ -1,7 +1,7 @@
 {
   "homepage": "https://jotachango.github.io",
   "name": "jotachango",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
