@@ -280,7 +280,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/arddecompositionPaper2.jpg"), // Replace with actual image if available
+      image: require("./assets/images/thesis_ard.png"), // Replace with actual image if available
       projectName: "GPU-Accelerated Rectangular Decomposition",
       projectDesc:
         "Presented a fast GPU-based algorithm for decomposing 2D scenes into rectangles for sound propagation modeling. Enables real-time simulation of large acoustic environments.",
