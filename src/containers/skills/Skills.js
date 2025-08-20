@@ -1,8 +1,10 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {skillsSection} from "../../portfolio";
+import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
+import codingPerson from "../../assets/lottie/codingPerson";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 import devPicture from "../../assets/images/juanDev.jpg";
 
