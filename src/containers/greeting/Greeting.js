@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
-import profilePicture from "../../assets/images/nanoProfile.png";
+import profilePicture from "../../assets/images/nanoProfile2.png";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
