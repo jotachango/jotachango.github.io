@@ -23,7 +23,7 @@ const greeting = {
   username: "jotachango",
   title: "Juan Francisco Chango Perugachi",
   subTitle: emoji(
-    "📱 Senior Mobile Developer & Kotlin Multiplatform Expert 🚀 Building high-quality Android & iOS apps with a deep passion for clean architecture, performance, and user experience."
+    "📱 Senior Mobile Developer & Kotlin Multiplatform Enthusiast 🚀 Building high-quality Android & iOS apps with a deep passion for clean architecture, performance, and user experience."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
