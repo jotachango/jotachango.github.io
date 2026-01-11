@@ -4,7 +4,7 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import devPicture from "../../assets/images/photo_min.png";
+import devPicture from "../../assets/images/jota_valpo.jpg";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
