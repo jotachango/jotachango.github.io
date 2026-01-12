@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f090bbdb.css",
-    "main.js": "/static/js/main.22458917.js",
+    "main.js": "/static/js/main.0693ce70.js",
     "static/css/64.8047047e.chunk.css": "/static/css/64.8047047e.chunk.css",
     "static/js/64.6e629cd4.chunk.js": "/static/js/64.6e629cd4.chunk.js",
     "static/css/769.b040359e.chunk.css": "/static/css/769.b040359e.chunk.css",
@@ -10,8 +10,8 @@
     "static/media/nanoProfile2.png": "/static/media/nanoProfile2.37928ca35aee12e6f94e.png",
     "static/media/sabine.png": "/static/media/sabine.d0aa72471ab51c8347cd.png",
     "static/media/masterthesisPaper.png": "/static/media/masterthesisPaper.21c57c8dcde44ecc35d0.png",
+    "static/media/jota_valpo.jpg": "/static/media/jota_valpo.d5df2edc4a9292bb028a.jpg",
     "static/media/acousticVibration2Paper.png": "/static/media/acousticVibration2Paper.2948063afb77a092190e.png",
-    "static/media/juanDev.jpg": "/static/media/juanDev.5923bd3f131ca833fa90.jpg",
     "static/media/speakliz.png": "/static/media/speakliz.eab5b8cb5f0d34879530.png",
     "static/media/fem.png": "/static/media/fem.0d9910f368f788be8823.png",
     "static/media/adaptiveboxes.png": "/static/media/adaptiveboxes.af28c71fd9e9b35684fb.png",
@@ -30,7 +30,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.f090bbdb.css.map": "/static/css/main.f090bbdb.css.map",
-    "main.22458917.js.map": "/static/js/main.22458917.js.map",
+    "main.0693ce70.js.map": "/static/js/main.0693ce70.js.map",
     "64.8047047e.chunk.css.map": "/static/css/64.8047047e.chunk.css.map",
     "64.6e629cd4.chunk.js.map": "/static/js/64.6e629cd4.chunk.js.map",
     "769.b040359e.chunk.css.map": "/static/css/769.b040359e.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.f090bbdb.css",
-    "static/js/main.22458917.js"
+    "static/js/main.0693ce70.js"
   ]
 }
