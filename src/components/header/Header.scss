@@ -16,6 +16,14 @@
   color: $textColorDark !important;
 }
 
+.header a {
+  color: $textColor !important;
+}
+
+.dark-menu a {
+  color: $textColorDark !important;
+}
+
 .dark-menu li a:hover {
   background-color: $buttonColor !important;
 }

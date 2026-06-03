@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import profilePicture from "../../assets/images/nanoProfile2.png";
+import landingPerson from "../../assets/lottie/build_tabaco_2.json";
+import profilePicture from "../../assets/images/profile_new_26.png";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -24,7 +24,7 @@ export default function Greeting() {
                 <img
                   src={profilePicture}
                   className="avatar"
-                  alt="Juan Chango"
+                  alt="Juan Francisco Chango"
                 />
                 <h1
                   className={
