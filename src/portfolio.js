@@ -183,9 +183,9 @@ const workExperiences = {
   experience: [
     {
       role: "Senior Application Developer",
-      company: "Itaú Bank via Kibernum (Chile) 🏦",
+      company: "Itaú Bank 🏦",
       companylogo: require("./assets/images/itau_logo.png"),
-      date: "July 2025 – Present",
+      date: "April 2026 – Present",
       desc: "Developing Android, iOS and Kotlin Multiplatform solutions for one of Latin America's largest banks, with a strong focus on mobile security and financial-grade architecture.",
       descBullets: [
         "📱 Building cross-platform features with Kotlin Multiplatform, sharing business logic across Android and iOS.",
