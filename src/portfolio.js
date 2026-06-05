@@ -46,7 +46,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "ANDROID · iOS · KOTLIN MULTIPLATFORM | BANKING & ENTERPRISE MOBILE",
+  subTitle:
+    "ANDROID · iOS · KOTLIN MULTIPLATFORM | BANKING & ENTERPRISE MOBILE",
   skills: [
     emoji(
       "⚡ Build secure, high-performance Android & iOS apps for banking and large-scale enterprise platforms"
