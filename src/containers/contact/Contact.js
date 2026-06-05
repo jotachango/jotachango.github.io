@@ -3,7 +3,7 @@ import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo, socialMediaLinks} from "../../portfolio";
 import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email.json";
+import email from "../../assets/lottie/email_updated.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 

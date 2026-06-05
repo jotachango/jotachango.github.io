@@ -23,10 +23,10 @@ const greeting = {
   username: "jotachango",
   title: "Juan Francisco Chango Perugachi",
   subTitle: emoji(
-    "Senior Mobile Developer & Kotlin Multiplatform Enthusiast | Building high-quality Android & iOS apps with a deep passion for clean architecture, performance, and user experience."
+    "Senior Mobile Developer specializing in Android, iOS & Kotlin Multiplatform for banking and large-scale enterprise apps. Passionate about mobile security, clean architecture, and delivering robust experiences to millions of users."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/10UboCRRsfS1yAp4qEA4S0Agxzfkm69gP/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -46,14 +46,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "MULTIPLATFORM MOBILE DEVELOPER | ANDROID & iOS | KOTLIN EXPERT",
+  subTitle: "ANDROID · iOS · KOTLIN MULTIPLATFORM | BANKING & ENTERPRISE MOBILE",
   skills: [
     emoji(
-      "⚡ Build high-performance Android & iOS apps with Kotlin Multiplatform"
+      "⚡ Build secure, high-performance Android & iOS apps for banking and large-scale enterprise platforms"
     ),
-    emoji("⚡ Experience with modern web tech (Vue.js)"),
     emoji(
-      "⚡ Research & development in High-Performance Computing and Python for AI solutions"
+      "⚡ Develop cross-platform solutions with Kotlin Multiplatform, sharing business logic across Android and iOS"
+    ),
+    emoji(
+      "⚡ Deep expertise in mobile security, clean architecture (MVVM/MVI), CI/CD pipelines, and cloud integrations"
     )
   ],
 
@@ -179,15 +181,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Application Developer",
+      company: "Itaú Bank via Kibernum (Chile) 🏦",
+      companylogo: require("./assets/images/itau_logo.png"),
+      date: "July 2025 – Present",
+      desc: "Developing Android, iOS and Kotlin Multiplatform solutions for one of Latin America's largest banks, with a strong focus on mobile security and financial-grade architecture.",
+      descBullets: [
+        "📱 Building cross-platform features with Kotlin Multiplatform, sharing business logic across Android and iOS.",
+        "🔒 Implementing secure mobile banking experiences following industry security standards and best practices.",
+        "🏗 Designing scalable KMP architecture to support high-availability banking services for millions of users."
+      ]
+    },
+    {
       role: "Senior Mobile Software Engineer",
       company: "Falabella (Chile) 🇨🇱",
       companylogo: require("./assets/images/falabellaLogo.jpeg"),
-      date: "June 2023 – Present",
-      desc: "Building and optimizing the Falabella Android app for millions of LATAM users, collaborating with teams across regions.",
+      date: "June 2023 – July 2025",
+      desc: "Led Android development for the Falabella App, one of LATAM's most-used retail platforms, serving millions of users across multiple countries.",
       descBullets: [
-        "📱 Developed and launched new Kotlin-based Android features, integrating with secure backend services.",
-        "🚀 Improved performance and user experience while coordinating cross-regional teams as a digital nomad.",
-        "🔒 Applied best practices in app security, authentication, and data protection."
+        "📱 Delivered new Kotlin-based features with a focus on performance, scalability, and seamless user experience.",
+        "🔒 Enforced mobile security best practices including secure authentication and data protection standards.",
+        "☁️ Integrated Firebase and GCP services for analytics, remote config, and cloud-based backend communication."
       ]
     },
     {
@@ -195,11 +209,11 @@ const workExperiences = {
       company: "TacTech (Chile) 🇨🇱",
       companylogo: require("./assets/images/tactechLogo.jpeg"),
       date: "May 2022 – June 2023",
-      desc: "Consulted for Falabella LATAM, delivering Android features and maintaining large-scale retail apps.",
+      desc: "Embedded consultant for Falabella LATAM, contributing to the Android platform as part of the core mobile engineering team.",
       descBullets: [
-        "💻 Built and refactored Android components using Kotlin, Dagger, and modern architectures.",
-        "📊 Optimized app performance, wrote robust unit tests, and integrated cloud features via Firebase & GCP.",
-        "🛠 Coordinated cross-team development to ensure scalability and maintainability of apps."
+        "💻 Built and refactored Android modules using Kotlin, Dagger, and MVVM architecture.",
+        "📊 Strengthened test coverage and optimized CI/CD pipelines for faster, reliable releases.",
+        "☁️ Integrated Firebase and GCP services to improve observability and feature delivery."
       ]
     },
     {
@@ -207,11 +221,11 @@ const workExperiences = {
       company: "NTT DATA Europe & LATAM (Chile) 🌐",
       companylogo: require("./assets/images/nttdataLogo.jpeg"),
       date: "Nov 2020 – May 2022",
-      desc: "Developed secure, high-performance features for Scotiabank Go App.",
+      desc: "Developed secure, high-performance features for Scotiabank Go App, gaining deep experience in banking-grade mobile development.",
       descBullets: [
-        "📱 Implemented Kotlin/Java features with MVVM/MVI and dependency injection (Dagger, Hilt).",
-        "🛡 Enhanced app security, managed production releases, and integrated new Android libraries.",
-        "🔍 Researched and implemented modern Android components to improve maintainability and performance."
+        "📱 Implemented features in Kotlin/Java following MVVM/MVI patterns with Dagger and Hilt for dependency injection.",
+        "🛡 Hardened app security, managed production APK releases, and ensured compliance with banking security standards.",
+        "🔍 Led R&D of new Android libraries and components to improve app maintainability and long-term performance."
       ]
     },
     {
@@ -499,7 +513,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me 🙌"),
+  title: emoji("Contact Me 👌"),
   subtitle: "Discuss a project or just want to say hi? Feel free to reach out!",
   // number: "+92-0000000000",
   email_address: "jfchangop@gmail.com"

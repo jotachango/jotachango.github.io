@@ -50,7 +50,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={"/CV_Juan_Chango_Tech_2025.pdf"}
+                    href={"https://drive.google.com/file/d/10UboCRRsfS1yAp4qEA4S0Agxzfkm69gP/view?usp=sharing"}
                     download="JotaChangoResume.pdf"
                     className="download-link-button"
                   >
