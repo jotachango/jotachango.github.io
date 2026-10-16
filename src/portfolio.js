@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "jfchangop@gmail.com",
   researchgate: "https://www.researchgate.net/profile/Juan_Chango",
   medium: "https://medium.com/@jotachango",
-  instagram: "https://www.instagram.com/jotachango/",
+  // instagram: "https://www.instagram.com/jotachango/",
   display: true // Set true to display this section
 };
 
